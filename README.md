@@ -2,15 +2,22 @@
 
 ## Introducción
 
-Comandos para instalar en Linuz un servidor de aplicaciones
+Comandos para instalar en Linux un servidor de aplicaciones.
 
-## Instalación Nginx en Linux
+## Instalación de Nginx en Linux
 
-Para la instalación de Nginx ejecuta en tu Linux estos comandos:
+Para la instalación de Nginx, ejecuta en tu terminal los siguientes comandos:
 
-sudo at-get update
+```bash
+sudo apt-get update
+
 sudo apt install nodejs
-node -V
+
+node -v
+
 npm -v
-sudo apt  install npm
+
+sudo apt install npm
+
 sudo apt install nginx
+
