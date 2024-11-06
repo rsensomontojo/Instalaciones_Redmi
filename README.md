@@ -36,7 +36,7 @@ sudo apt-cache search tomcat
 sudo apt install tomcat9-admin
 
 //Si da error usa:
-sudo apt install tomcat9-admin
+sudo apt install tomcat10-admin
 ```
 Comprueba los puertos Apache Tomcat:
 
@@ -47,4 +47,9 @@ Añade el puerto al firewall:
 
 ```bash
 sudo ufw allow from any to any port 8080 proto tcp
+```
+Abre el navegador y busca:
+
+```bash
+http://127.0.0.1:8080
 ```
