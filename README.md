@@ -37,4 +37,6 @@ sudo apt install tomcat9-admin
 ```
 Comprueba los puertos Apache Tomcat:
 
+```bash
 ss -ltn
+```
