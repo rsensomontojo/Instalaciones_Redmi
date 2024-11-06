@@ -10,14 +10,31 @@ Para la instalación de Nginx, ejecuta en tu terminal los siguientes comandos:
 
 ```bash
 sudo apt-get update
-
 sudo apt install nodejs
-
 node -v
-
 npm -v
-
 sudo apt install npm
-
 sudo apt install nginx
 
+```
+
+
+## Instalación de Apache Tomcat de Linux
+
+Para la instalación de Tomcat, ejecuta en tu terminal los siguientes comandos:
+
+```bash
+sudo apt-get update
+sudo apt-get install openjdk-11-jdk
+java -version
+
+```
+Para comprobar la disponibilidad de los paqetes Apcahe:
+
+```bash
+sudo apt-cache search tomcat
+sudo apt install tomcat9-admin
+```
+Comprueba los puertos Apache Tomcat:
+
+ss -ltn
