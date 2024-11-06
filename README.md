@@ -40,3 +40,8 @@ Comprueba los puertos Apache Tomcat:
 ```bash
 ss -ltn
 ```
+Añade el puerto al firewall:
+
+```bash
+sudo ufw allow from any to any port 8080 proto tcp
+```
