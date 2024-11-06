@@ -34,6 +34,9 @@ Para comprobar la disponibilidad de los paqetes Apcahe:
 ```bash
 sudo apt-cache search tomcat
 sudo apt install tomcat9-admin
+
+//Si da error usa:
+sudo apt install tomcat9-admin
 ```
 Comprueba los puertos Apache Tomcat:
 
