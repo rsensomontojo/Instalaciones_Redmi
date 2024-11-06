@@ -15,7 +15,6 @@ node -v
 npm -v
 sudo apt install npm
 sudo apt install nginx
-
 ```
 
 
@@ -27,8 +26,8 @@ Para la instalación de Tomcat, ejecuta en tu terminal los siguientes comandos:
 sudo apt-get update
 sudo apt-get install openjdk-11-jdk
 java -version
-
 ```
+
 Para comprobar la disponibilidad de los paquetes Apache 📦:
 
 ```bash
@@ -38,11 +37,13 @@ sudo apt install tomcat9-admin
 //Si da error usa:
 sudo apt install tomcat10-admin
 ```
+
 Comprueba los puertos Apache Tomcat 🌐:
 
 ```bash
 ss -ltn
 ```
+
 Añade el puerto al firewall 🔒:
 
 ```bash
